@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "Outfit";
+  src: url("./assets/fonts/Outfit-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: "Young Serif";
+  src: url("./assets/fonts/YoungSerif-Regular.ttf");
+}
+main{
+  font-family: "Outfit";
+}
+
+h1,h2,h3{
+  font-family: "Young Serif";
+}
