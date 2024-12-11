@@ -100,3 +100,32 @@ li{
     margin-bottom: 8px;
   }
 }
+
+.nutrition{
+  & table{
+    width: 100%;
+    border-collapse: collapse;
+
+    & tr{
+      border-bottom: 1px solid var(--stone-150);
+      text-align: left;
+      
+      & th, td{
+        padding: 16px;
+      }
+
+      & th{
+        font-weight: normal;
+      }
+
+      & td{
+        font-weight: bold;
+        color: var(--brown-800);
+      }
+    }
+
+    & tr:last-child{
+      border: none;
+    }
+  }
+}
